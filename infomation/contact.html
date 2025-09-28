@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <title>contact</title>
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+<body>
+    <div class="link-box">
+    <a href="/index.html">[about:ho4ng] $</a>
+    </div>
+    <a class="music" href="/infomation/music.html">music-topic</a>
+    <a class="media" href="/infomation/media.html">social-account</a>
+    <a class="contact" href="/infomation/contact.html">contact</a>
+    <a class="donation" href="/infomation/donation.html">donate</a>
+    <div class="box">
+    <b>You can contact me for work via email and my social media account</b>
+    <br>
+    <br>
+ <a class="hyperlink" href="https://www.facebook.com/LeeVitHoang">facebook</a> (most active)
+ <br>
+ <br>
+    <a href="javascript:void(0)" id="copyLink" class="hyperlink";>
+  gmail
+</a>
+<br>
+<br>
+    <a href="javascript:void(0)" id="discord" class="hyperlink";>
+  discord
+</a>
+<script>
+document.getElementById("copyLink").addEventListener("click", function() {
+  navigator.clipboard.writeText("itsmeutgd@gmail.com").then(() => {
+    alert("copied!");
+  });
+});
+</script>
+<script>
+document.getElementById("discord").addEventListener("click", function() {
+  navigator.clipboard.writeText("leevithoang").then(() => {
+    alert("copied!");
+  });
+});
+</script>
+  </div>
+</body>
+</html>

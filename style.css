@@ -1,0 +1,104 @@
+body{
+    background-color: #181818;
+    font-family: monospace;
+}
+div{
+    color: white;
+    font-size: 14px;
+}
+.box {
+  width: 640px;
+  padding: 20px;
+  background: #282828;
+  line-height: 1.4;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+.link-box a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: lightgrey;
+    position: relative;
+    left: 220px;
+}
+
+.link-box a:hover {
+    background-color: rgb(238, 238, 238);
+}
+.hyperlink:link,
+.hyperlink:visited {
+    color: #46a4b1;
+    text-decoration: none;
+}
+
+.hyperlink:hover{
+    color: #46b17f;
+}
+.music{
+    position: relative;
+    bottom: 25px;
+    left: 380px;
+    font-size: 14px;
+}
+.music:link,
+.music:visited {
+    color: #46a4b1;
+    text-decoration: none;
+}
+.music:hover{
+    color: #46b17f;
+}
+.media:link,
+.media:visited {
+    color: #46a4b1;
+    text-decoration: none;
+}
+.media{
+    position: relative;
+    bottom: 25px;
+    left: 395px;
+    font-size: 14px;
+}
+.media:hover{
+    color: #46b17f;
+}
+.contact:link,
+.contact:visited {
+    color: #46a4b1;
+    text-decoration: none;
+}
+.contact{
+    position: relative;
+    bottom: 25px;
+    left: 410px;
+    font-size: 14px;
+}
+.contact:hover{
+    color: #46b17f;
+}
+#bank{
+    position: relative;
+    bottom: 277px;
+    left: 656px;
+}
+.donation:link,
+.donation:visited {
+    color: #46a4b1;
+    text-decoration: none;
+}
+.donation{
+    position: relative;
+    bottom: 25px;
+    left: 431px;
+    font-size: 14px;
+}
+.donation:hover{
+    color: #46b17f;
+}
